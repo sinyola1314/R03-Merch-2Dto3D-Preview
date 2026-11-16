@@ -27,7 +27,7 @@ Switch between Chinese and English in the first section of **Settings**, "语言
 - Your choice is remembered in your browser.
 - Add `?lang=en` or `?lang=zh` to the link to force a language, e.g. when sharing with friends.
 
-The English interface is new. A few messages, tutorials and search results may still show Chinese; they are being translated step by step. Feedback on wording is very welcome in [Issues](https://github.com/sinyola1314/R03-Merch-2Dto3D-Preview/issues).
+The English interface is new. All items, notes, messages and the tutorial are translated; search currently works with Chinese keywords only, and a few rarely seen messages may still show Chinese. Feedback on wording is very welcome in [Issues](https://github.com/sinyola1314/R03-Merch-2Dto3D-Preview/issues).
 
 ## Feedback
 
