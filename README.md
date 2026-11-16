@@ -1,5 +1,7 @@
 <p align="center"><img src="docs/logo.gif" width="260" alt="R03 小熊猫3D预览机 LOGO 动画：小熊猫从圆圈里弹出来"></p>
 
+<p align="center"><b>中文</b> | <a href="README.en.md">English</a></p>
+
 # R03 小熊猫3D预览机
 
 **周边制品2D转3D预览一站式工具箱**
@@ -12,6 +14,7 @@
 - **离线使用**：下载本仓库里的 `index.html`，双击用浏览器打开即可，不需要联网，也不需要安装。
 - **当前版本**：V2.5（2026-11-16）
 - **作者**：囿一九_YOKKY
+- **语言**：网页最上面的「中 / EN」可以切换中英文。第一次打开按浏览器语言自动选择，之后记住你的选择；网址后面加 `?lang=en` 或 `?lang=zh` 可以指定语言，方便发给外国朋友。
 
 > 图片只在你自己的浏览器里处理，不会上传到任何服务器。网页也不会保存图片和设置，刷新或关闭后会清空，请及时导出。
 >
@@ -203,6 +206,7 @@
 - [three.js](https://threejs.org/) r147，MIT License，Copyright © 2010-2022 three.js authors。
 - [mp4-muxer](https://github.com/Vanilagy/mp4-muxer) 5.1.3，MIT License，Copyright © 2023 Vanilagy。
 - [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) 1.4.4，MIT License，Copyright © 2009 Kazuhiko Arase。
+- [Nunito](https://github.com/googlefonts/nunito)（英文界面字体，拉丁字符子集），SIL Open Font License 1.1，Copyright 2014 The Nunito Project Authors。
 
 ## 问题反馈
 
@@ -241,6 +245,7 @@
 <details>
 <summary>点开查看各版本更新</summary>
 
+- **英文界面（2026-11-16）**：网页最上面和协议页新增「中 / EN」切换，第一次打开按浏览器语言自动选择，网址加 `?lang=en` / `?lang=zh` 可以指定语言；英文界面使用 Nunito 字体；英文界面的分享里 X、Facebook、Reddit、Bluesky、Threads 排在前面，反馈链接换成 GitHub Issues；新增英文说明 README.en.md。部分提示、新手教学和搜索暂时还是中文，会陆续补齐。
 - **V2.5**：明信片等纸片新增「背面白墨层」上传（在背面图下面），背面选镭射、珠光等特殊板材时，可以控制哪里垫白；视频和录制可以选 24 / 30 / 60 帧；「重看新手提示」改成和第一次进入时同一套提示，手机上不再重复出现「功能区」「预览区」「快捷调整区」；书册翻开后中缝不再露出白线（画册、骑马钉、精装等薄书最明显），中缝阴影更自然；读取较大的 PDF 时会提示「PDF 比较大，正在读取，请稍等」；吧唧套盒新增「方形 80 ×2」双窗尺寸；自定义套盒可以开 1 个或 2 个窗（可调两窗中心距和上下位置），窗口形状可以上传（透明底 PNG 或白底黑色图形，按外轮廓开窗），导出的刀线图也会画出这个形状，椭圆窗的刀线图也改成真正的椭圆；修复部分 Windows 电脑控制台里的显卡提示（f_swatchCol）。
 - **V2.4**：纸片新增「便利贴」：正方形 / 长方形 / 圆形 / 异形，可以直接输入宽高，调圆角、张数（厚度）、胶条宽和纸的颜色；最多 10 张图轮流当每一张，最上面一张可以写字（选字体、字号、位置、颜色）；「动作」里可以一张接一张撕下来，导出视频也能用。
 - **V2.3.2**：「关于」里的群名称调整。
