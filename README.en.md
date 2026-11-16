@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.5 (2026-11-16)
+- **Current version**: V2.6 (2026-11-16)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -21,7 +21,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 ## Language
 
-The page switches between Chinese and English with the **中 / EN** button at the top (also on the license screen).
+Switch between Chinese and English in the first section of **Settings**, "语言 / Language", or with the **中 / EN** button on the license screen.
 
 - On first visit, the language follows your browser: Chinese browsers get Chinese, everything else gets English.
 - Your choice is remembered in your browser.
@@ -248,7 +248,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
-- **English interface (2026-11-16)**: added a 中 / EN switch at the top of the page and on the license screen; the language follows your browser on first visit and can be forced with `?lang=en` / `?lang=zh`. The English interface uses the Nunito font. In English, X, Facebook, Reddit, Bluesky and Threads are listed first in Share, and feedback links point to GitHub Issues. Added this English README.
+- **V2.6**: new English interface: switch languages in the first section of Settings ("语言 / Language") or on the license screen; the language follows your browser on first visit and can be forced with `?lang=en` / `?lang=zh`. The English interface uses the Nunito font. In English, X, Facebook, Reddit, Bluesky and Threads are listed first in Share, and feedback links point to GitHub Issues. Added this English README.
 - **V2.5**: white ink layer for the back of postcards and other paper items; 24 / 30 / 60 fps for videos and recording; replaying tips now uses the same tips as the first visit; no more white line in the book gutter; a notice while large PDFs load; new "Square 80 ×2" badge box; custom badge boxes can have 1 or 2 windows with uploadable window shapes, also drawn in the exported die line; fixed a graphics warning on some Windows computers.
 - **V2.4**: new sticky notes in Paper: square / rectangle / circle / custom shape, size, corners, sheet count, adhesive strip and paper color; up to 10 images used in turn, text on the top sheet; sheets tear off one by one in "Motion", also in videos.
 - **V2.0**: reorganized panels with numbered sections in the same order for every item; quick setup questionnaire; up to 3 "My presets" per item saved on your device; search (Ctrl+K or /); export aspect ratio and export preview; badge types regrouped; book flaps, manual spine width and spine effects; canvas text levels; and much more.
