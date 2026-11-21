@@ -1,8 +1,8 @@
-<p align="center"><img src="docs/logo.gif" width="260" alt="R03 Red Panda 3D Previewer logo animation: a red panda pops out of a circle"></p>
+<p align="center"><img src="docs/logo.gif" width="260" alt="R03 Yokky Bear 3D Previewer logo animation: Yokky Bear pops out of a circle"></p>
 
 <p align="center"><a href="README.md">中文</a> | <b>English</b></p>
 
-# R03 Red Panda 3D Previewer
+# R03 Yokky Bear 3D Previewer
 
 **All-in-one 2D-to-3D merch mockup toolbox**
 
@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6 (2026-11-21)
+- **Current version**: V2.6.1 (2026-11-21)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -57,7 +57,7 @@ The English interface is new. All items, notes, messages and the tutorial are tr
 
 ![Some of the supported items](docs/products.png)
 
-> Everything above was exported directly from the page. The sample character is the author's red panda. Screenshots show the Chinese interface.
+> Everything above was exported directly from the page. The sample character is the author's Yokky Bear. Screenshots show the Chinese interface.
 
 ## What it can make
 
@@ -248,6 +248,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.1**: "小熊猫" is now translated as **Yokky Bear** everywhere in the English interface; the English name is now R03 Yokky Bear 3D Previewer.
 - **V2.6**: the English interface is now part of the main version, and everything added in V2.5.1–V2.5.12 is translated. Accordion books now show every page (pages past the first few used to stay blank). English interface: switch languages in the first section of Settings ("语言 / Language") or on the license screen; the language follows your browser on first visit and can be forced with `?lang=en` / `?lang=zh`. The English interface uses the Nunito font. In English, X, Facebook, Reddit, Bluesky and Threads are listed first in Share, and feedback links point to GitHub Issues. Added this English README.
 - **V2.5.12**: a 2-page cover PDF is now read as front + back cover (3 pages = front, inside front, back; 4 pages = front, inside front, inside back, back); a narrow first page is read as single pages even when "Spread" is chosen. Accordion books show the uploaded back cover, read the back side in the right order, and no longer add a blank page.
 - **V2.5.11**: in Assembly, items listed above a half-folded leaflet used as an item are no longer hidden behind its pages.
