@@ -1,5 +1,7 @@
 <p align="center"><img src="docs/logo.gif" width="260" alt="R03 小熊猫3D预览机 LOGO 动画：小熊猫从圆圈里弹出来"></p>
 
+<p align="center"><b>中文</b> | <a href="README.en.md">English</a></p>
+
 # R03 小熊猫3D预览机
 
 **周边制品2D转3D预览一站式工具箱**
@@ -10,8 +12,9 @@
 
 - **在线使用**：https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/
 - **离线使用**：下载本仓库里的 `index.html`，双击用浏览器打开即可，不需要联网，也不需要安装。
-- **当前版本**：V2.5.12（2026-11-21）
+- **当前版本**：V2.6（2026-11-21）
 - **作者**：囿一九_YOKKY
+- **语言**：「设置」里的第一个区块「语言 / Language」可以切换中英文，协议页右上角也能切换。第一次打开按浏览器语言自动选择，之后记住你的选择；网址后面加 `?lang=en` 或 `?lang=zh` 可以指定语言，方便发给外国朋友。
 
 > 图片只在你自己的浏览器里处理，不会上传到任何服务器。网页也不会保存图片和设置，刷新或关闭后会清空，请及时导出。
 >
@@ -19,7 +22,7 @@
 
 ## 公测说明
 
-现在是 **V2.5.12**（V1.0 起公测，之后每次更新都会升版本号，更新内容见文末「更新记录」）。欢迎试用、提意见：
+现在是 **V2.6**（V1.0 起公测，之后每次更新都会升版本号，更新内容见文末「更新记录」）。欢迎试用、提意见：
 
 - 常见问题帮助：[【腾讯文档】R03 使用手册](https://docs.qq.com/aio/DSU5jbmpYbU5IWmpk)
 - 功能建议、bug 反馈：[【腾讯文档】R03 功能 / bug 反馈](https://docs.qq.com/form/page/DSXhMcFVzek5nRmRs)（网页左上角的版本号也可以直接点开）
@@ -203,6 +206,7 @@
 - [three.js](https://threejs.org/) r147，MIT License，Copyright © 2010-2022 three.js authors。
 - [mp4-muxer](https://github.com/Vanilagy/mp4-muxer) 5.1.3，MIT License，Copyright © 2023 Vanilagy。
 - [qrcode-generator](https://github.com/kazuhikoarase/qrcode-generator) 1.4.4，MIT License，Copyright © 2009 Kazuhiko Arase。
+- [Nunito](https://github.com/googlefonts/nunito)（英文界面字体，拉丁字符子集），SIL Open Font License 1.1，Copyright 2014 The Nunito Project Authors。
 
 ## 问题反馈
 
@@ -241,6 +245,7 @@
 <details>
 <summary>点开查看各版本更新</summary>
 
+- **V2.6**：英文界面合并进正式版：「设置」第一个区块「语言 / Language」和协议页右上角可以切换中文 / English，第一次打开按浏览器语言自动选择，网址加 `?lang=en` / `?lang=zh` 可以指定语言；英文界面使用 Nunito 字体；英文界面的分享里 X、Facebook、Reddit、Bluesky、Threads 排在前面，反馈链接换成 GitHub Issues；新增英文说明 README.en.md。V2.5.1–V2.5.12 新加的功能（镂空识别方式、书册镂空、PNG 清晰度、刀线要求、组装图层、跨页 PDF 等）也都翻译了；搜索暂时只能用中文关键词。另外修好经折一次只显示前几页、后面的页一直空白的问题（PDF 页面画好以后没有贴到经折上）。
 - **V2.5.12**：
   - **封面 PDF**：单页版式下，2 页 = 封面、封底（以前第 2 页被当成封二）；3 页 = 封面、封二、封底；4 页 = 封面、封二、封三、封底。选了「展开图」但传的是竖版单页（例如 A4 封面、封底各一页）时，会自动按单页读。
   - **经折**：封底会显示上传的封底（以前一直是素色硬壳）；背面的页序改对了，翻过来从左往右接着读（以前是倒着排）；经折没有左右页之分，不再因为「第一页是左页」补空白页。
