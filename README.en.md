@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.1 (2026-11-21)
+- **Current version**: V2.6.2 (2026-11-21)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -248,6 +248,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.2**: tidier About section in English: the author is shown as YOKKY only, the Chinese social media / group block at the bottom is hidden, and the four buttons have shorter labels that wrap neatly.
 - **V2.6.1**: "小熊猫" is now translated as **Yokky Bear** everywhere in the English interface; the English name is now R03 Yokky Bear 3D Previewer.
 - **V2.6**: the English interface is now part of the main version, and everything added in V2.5.1–V2.5.12 is translated. Accordion books now show every page (pages past the first few used to stay blank). English interface: switch languages in the first section of Settings ("语言 / Language") or on the license screen; the language follows your browser on first visit and can be forced with `?lang=en` / `?lang=zh`. The English interface uses the Nunito font. In English, X, Facebook, Reddit, Bluesky and Threads are listed first in Share, and feedback links point to GitHub Issues. Added this English README.
 - **V2.5.12**: a 2-page cover PDF is now read as front + back cover (3 pages = front, inside front, back; 4 pages = front, inside front, inside back, back); a narrow first page is read as single pages even when "Spread" is chosen. Accordion books show the uploaded back cover, read the back side in the right order, and no longer add a blank page.
