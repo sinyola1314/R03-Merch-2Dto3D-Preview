@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.3 (2026-11-21)
+- **Current version**: V2.6.4 (2026-11-23)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -248,6 +248,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.4**: shorter help notes and tooltips throughout, keeping only what you need to know; English updated to match.
 - **V2.6.3**: standees get a "Character die line" upload under Images (not uploaded = automatic die line); borderless shikishi with an edge line image now folds the bleed outside the red trim line to the back, so the ring on the back shows that part of your artwork instead of a plain border color; the wrap width is measured against the trim line.
 - **V2.6.2**: tidier About section in English: the author is shown as YOKKY only, the Chinese social media / group block at the bottom is hidden, and the four buttons have shorter labels that wrap neatly.
 - **V2.6.1**: "小熊猫" is now translated as **Yokky Bear** everywhere in the English interface; the English name is now R03 Yokky Bear 3D Previewer.
