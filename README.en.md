@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.4 (2026-11-23)
+- **Current version**: V2.6.6 (2026-11-23)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -248,6 +248,8 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.6**: badge box: the die line colour rules are shown next to "Upload full die line", and a box built from a full die line explains how to change its orientation (switch to manual settings, then upload the window die line again). The "?" under "Size & die line" is easier to read: sections with red headings, bold labels and dividers; the general rules are a short list for every item.
+- **V2.6.5**: badge box: size presets now show the box size (W × H × depth, mm) and window shape, and "Badge inside" shows the default pairing (restored when you change size). With a preset size you can upload just a window die line; outline-only window drawings work now. Upload a full box die line to build the box, windows, lid and tuck flap from it, with the artwork fitted to each panel (enter the front width if the image has no DPI). Die line rules are in the "?" of "Size & die line".
 - **V2.6.4**: shorter help notes and tooltips throughout, keeping only what you need to know; English updated to match.
 - **V2.6.3**: standees get a "Character die line" upload under Images (not uploaded = automatic die line); borderless shikishi with an edge line image now folds the bleed outside the red trim line to the back, so the ring on the back shows that part of your artwork instead of a plain border color; the wrap width is measured against the trim line.
 - **V2.6.2**: tidier About section in English: the author is shown as YOKKY only, the Chinese social media / group block at the bottom is hidden, and the four buttons have shorter labels that wrap neatly.
