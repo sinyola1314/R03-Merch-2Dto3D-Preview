@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.11 (2026-11-25)
+- **Current version**: V2.6.12 (2026-11-25)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -249,6 +249,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.12**: (1) With the artboard preview on, the artboard has a red dashed frame: drag the corners to resize it (ratio kept), drag the dashed line to move it, double-click the line to reset. This only changes the preview, not exports. (2) After changing the aspect ratio in Settings › Background, a single product, its title and the "for reference only" note are centered automatically; click the red "Undo" in the message to go back (not on the Assemble page). (3) The floating ball's "Reset" is now "Straighten": it only straightens; click the red "Center it" in the message to center, then "Undo" if needed.
 - **V2.6.11**: the QQ group number (1053188712) on the license screen and in About is now an underlined link that opens the join page; the number on the license screen uses the MiSans font.
 - **V2.6.10**: the license screen now shows the QQ group number (1053188712) under the author, with a "Copy" button.
 - **V2.6.9**: the QQ group in About is now "小熊猫研究所" (Yokky Bear Lab); the two old groups were removed from About.
