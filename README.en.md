@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.8 (2026-11-25)
+- **Current version**: V2.6.9 (2026-11-25)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -249,6 +249,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.9**: the QQ group in About is now "小熊猫研究所" (Yokky Bear Lab); the two old groups were removed from About.
 - **V2.6.8**: new "Support the author (Afdian)" button in About. The night theme (black / red / white) has new colors matching R07; the scene background defaults to dark gray at night, but a background you picked yourself is kept.
 - **V2.6.7**: fix: after "Edit badge inside" in the badge box, if you switched to another badge (e.g. from a geometric badge to a custom-shape badge) and came back, the box kept the old badge. It now uses the badge you edited last.
 - **V2.6.6**: badge box: the die line colour rules are shown next to "Upload full die line", and a box built from a full die line explains how to change its orientation (switch to manual settings, then upload the window die line again). The "?" under "Size & die line" is easier to read: sections with red headings, bold labels and dividers; the general rules are a short list for every item.
