@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.21 (2026-11-26)
+- **Current version**: V2.6.22 (2026-11-26)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -249,6 +249,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.22**: feedback now uses a Tencent Docs form: after exporting it pops up at most once a week (scan the QR code or use the button); [Send feedback] under "About" opens the form directly. The in-page questionnaire was removed.
 - **V2.6.21**: feedback submits more reliably: if the feedback server can't be reached it retries a backup address; if both fail, your answers are saved on this device and sent automatically next time you open the page (uploaded files need to be sent again).
 - **V2.6.20**: the feedback form has a new checkbox under Contact: "I'd like to join beta testing and try new features first" (a contact is required when ticked).
 - **V2.6.19**: "About" redesigned: buttons on top (Sponsor · Afdian, **Send feedback**, replay tips, video tutorials, manual, QQ group), contact info below; "License summary" renamed "Mockup license" with a full-license link at the end; name and version removed (the version is shown top-left). Setting groups start collapsed so these buttons are easy to reach. The feedback form now pops up automatically at most once a day; after closing it, a tip says you can reopen it anytime with [Send feedback] under "About".
