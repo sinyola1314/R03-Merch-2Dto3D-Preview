@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.23 (2026-11-26)
+- **Current version**: V2.6.24 (2026-11-26)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -249,6 +249,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.24**: On laptops with two GPUs, the 3D view now prefers the dedicated graphics card. If your browser isn’t using the graphics card (hardware acceleration off, GPU driver blocked, remote desktop, etc.), a note in the bottom right shows how to turn hardware acceleration on; click "Don’t show again" to hide it for good. If R03 feels slow to open or rotate, check this first.
 - **V2.6.23**: [Send feedback] under "About" now shows the feedback window first (QR code and note); the form opens only when you click "Open the feedback form".
 - **V2.6.22**: feedback now uses a Tencent Docs form: after exporting it pops up at most once a week (scan the QR code or use the button); [Send feedback] under "About" opens the form directly. The in-page questionnaire was removed.
 - **V2.6.21**: feedback submits more reliably: if the feedback server can't be reached it retries a backup address; if both fail, your answers are saved on this device and sent automatically next time you open the page (uploaded files need to be sent again).
