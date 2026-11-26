@@ -764,6 +764,35 @@ html[lang=en] .about pre{display:none}
 html[lang=en] .about .about-btns{align-items:stretch}
 html[lang=en] .about .about-btns>*{font-size:13px;line-height:1.25;white-space:normal;overflow-wrap:anywhere;text-align:center;display:flex;align-items:center;justify-content:center;min-height:40px;padding:7px 10px;box-sizing:border-box}
 </style><!-- /R03-I18N-CSS -->
+<script>window.R03_BETA={api:'https://r03-cloud.yokky.workers.dev',page:'public'};
+/* R03 随机测试版：公开网站和测试版共用的邀请 / 同意窗口。
+   window.R03_BETA = {api:'云端网址', page:'public' 或 'beta'}
+   - 公开网站：测试开着时，新访客按比例随机弹出邀请；同意 → 进入 beta/，以后再来自动进；不同意 → 留在公开版，不再问。
+   - 测试版：没同意过的先问；测试关了就回到公开版。 */
+(function(){var B=window.R03_BETA;if(!B||!B.api)return;var K='r03beta';
+  function get(){try{return localStorage.getItem(K)}catch(e){return null}}function set(v){try{v==null?localStorage.removeItem(K):localStorage.setItem(K,v)}catch(e){}}
+  var pub=B.page==='public',home=pub?'':'../',beta=pub?'beta/':'';
+  function go(u){location.replace(u+(pub?location.search.replace(/[?&]nobeta\b/,''):'')+location.hash)}
+  function ready(f){document.readyState==='loading'?document.addEventListener('DOMContentLoaded',f):f()}
+  function modal(onYes,onNo){ready(function(){var w=document.createElement('div');w.id='betaAsk';w.setAttribute('role','dialog');
+    w.style.cssText='position:fixed;inset:0;z-index:400;background:rgba(20,14,14,.5);display:flex;align-items:center;justify-content:center;padding:16px;font:14px/1.7 MiSans,"Noto Sans SC",-apple-system,"PingFang SC","Microsoft YaHei",sans-serif';
+    w.innerHTML='<div style="background:#fff;color:#2B2322;border-radius:16px;max-width:420px;width:100%;padding:24px 22px 18px;box-shadow:0 20px 60px rgba(0,0,0,.3)">'
+      +'<p style="margin:0 0 6px;font-size:17px;font-weight:700"><span style="background:#C74E49;color:#fff;border-radius:6px;padding:1px 8px;margin-right:8px;font-size:13px">测试版</span>您已进入随机测试网页</p>'
+      +'<p style="margin:0 0 10px">可以体验测试版功能，如有问题建议，欢迎反馈。</p>'
+      +'<p style="margin:0 0 6px">您是否同意网站收集您的数据（不包含图片和隐私内容），仅包含最终样机展示和相关配置？</p>'
+      +'<p style="margin:0 0 16px;color:#7C6F6D;font-size:12.5px">注：此询问仅限测试版，公开版不收集您的作品数据。</p>'
+      +'<div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end"><button type="button" data-a="no" style="font:inherit;padding:9px 14px;border-radius:10px;border:1px solid #E5DCDA;background:#fff;color:#2B2322;cursor:pointer">不同意，使用公开版</button>'
+      +'<button type="button" data-a="yes" style="font:inherit;font-weight:700;padding:9px 16px;border-radius:10px;border:0;background:#C74E49;color:#fff;cursor:pointer">同意，进入测试版</button></div></div>';
+    w.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-a]');if(!a)return;w.remove();a.dataset.a==='yes'?onYes():onNo()});document.body.appendChild(w)})}
+  if(pub&&/[?&]nobeta\b/.test(location.search))return;
+  fetch(B.api+'/pub/beta',{cache:'no-store'}).then(function(r){return r.json()}).then(function(c){B.on=!!c.on;
+    if(pub){if(!c.on)return;var v=get();if(v==='yes'){go(beta);return}if(v==='no'||v==='skip')return;
+      if(Math.random()<c.ratio)modal(function(){set('yes');go(beta)},function(){set('no')});else set('skip');return}
+    /* 测试版 */
+    if(!c.on){set(null);ready(function(){var n=document.createElement('div');n.style.cssText='position:fixed;inset:0;z-index:400;background:rgba(20,14,14,.6);color:#fff;display:flex;align-items:center;justify-content:center;font:16px MiSans,sans-serif';n.textContent='测试已结束，正在回到公开版…';document.body.appendChild(n)});setTimeout(function(){location.replace(home+'?nobeta')},1500);return}
+    if(get()!=='yes')modal(function(){set('yes')},function(){set('no');location.replace(home+'?nobeta')})})
+  .catch(function(){B.on=false})})();
+</script>
 </head>
 <body>
 <div class="tour" id="tour" hidden role="dialog" aria-modal="true" aria-labelledby="tourTitle">
