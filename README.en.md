@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.14 (2026-11-25)
+- **Current version**: V2.6.16 (2026-11-26)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -249,6 +249,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.16**: after exporting an image, video or GIF, a short feedback form pops up (once per visit; close it with × in the top-right, filling it in is optional). You can rate your experience, leave suggestions and problems, and optionally a contact. Only what you fill in is sent; the finished mockup PNG and its settings are attached only if you tick that box — your original images are never uploaded. Question 5 lets you contribute copyright-free shimmer backgrounds, foil color charts, item dielines and reference photos for R03. A random beta invitation was also added (only shown when the author turns it on; agreeing takes you to the `beta/` version). (V2.6.15 was an internal test number and was never released.)
 - **V2.6.14**: top texts (top-left / top-center / top-right) now sit 5% of the artboard height below the top edge and 5% from the sides; the title's white box only follows its text, so resizing the artboard no longer changes it (the box is a bit shorter than before; enlarge the text in Settings › Text if needed). "Center it" after "Straighten" also moves the title to top-center.
 - **V2.6.13**: after you drag the artboard (resize or move), a message shows the canvas size, i.e. the PNG export size in pixels.
 - **V2.6.12**: (1) With the artboard preview on, the artboard has a red dashed frame: drag the corners to resize it (ratio kept), drag the dashed line to move it, double-click the line to reset. This only changes the preview, not exports. (2) After changing the aspect ratio in Settings › Background, a single product, its title and the "for reference only" note are centered automatically; click the red "Undo" in the message to go back (not on the Assemble page). (3) The floating ball's "Reset" is now "Straighten": it only straightens; click the red "Center it" in the message to center, then "Undo" if needed.
