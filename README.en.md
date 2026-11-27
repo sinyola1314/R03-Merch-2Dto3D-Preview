@@ -248,7 +248,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
-- **V2.6.29**: Fixed "First time here" sometimes not starting the tutorial. Browsers that had already seen some tips could get nothing; now it always plays the full tutorial from the start.
+- **V2.6.29**: Fixed "It's my first time" sometimes not starting the tutorial. Browsers that had already seen some tips could get nothing; now it always plays the full tutorial from the start.
 - **V2.6.28**: Moved the voting box on the license screen to just below the "I have read and accept" checkbox, so it's easier to see.
 - **V2.6.27**: Added a voting box under the GitHub Star box on the license screen. Lots of new products and features are planned for December, and the most-voted products come first: [vote here](https://docs.qq.com/form/page/DSUdLVHZaTWx2Q1Z0).
 - **V2.6.26**: The license screen is rewritten in two groups: notes on use (what you make, privacy, for reference only, nothing is saved) and the license for the tool itself (non-commercial use and sharing; the tool itself). Everything you make can be used commercially for free, **and when you publish it, please credit the mockup source or the author's name**. About › Mockup license is updated too.
