@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.27 (2026-11-27)
+- **Current version**: V2.6.28 (2026-11-27)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -248,6 +248,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.28**: Moved the voting box on the license screen to just below the "I have read and accept" checkbox, so it's easier to see.
 - **V2.6.27**: Added a voting box under the GitHub Star box on the license screen. Lots of new products and features are planned for December, and the most-voted products come first: [vote here](https://docs.qq.com/form/page/DSUdLVHZaTWx2Q1Z0).
 - **V2.6.26**: The license screen is rewritten in two groups: notes on use (what you make, privacy, for reference only, nothing is saved) and the license for the tool itself (non-commercial use and sharing; the tool itself). Everything you make can be used commercially for free, **and when you publish it, please credit the mockup source or the author's name**. About › Mockup license is updated too.
 - **V2.6.25**: Mockup license update: you may use mockup images and videos in commercial projects for free, **and when you publish them, please credit the mockup source or the author's name** (e.g. "Mockup made with R03 Yokky Bear 3D Previewer" or "@囿一九_YOKKY"). The license screen and About › Mockup license are updated.
