@@ -12,7 +12,7 @@ Turn your PNG designs into 3D merch mockups you can spin around: acrylic charms,
 
 - **Use online**: https://sinyola1314.github.io/R03-Merch-2Dto3D-Preview/?lang=en
 - **Use offline**: download `index.html` from this repository and double-click it to open in your browser. No internet and no installation needed.
-- **Current version**: V2.6.29 (2026-11-27)
+- **Current version**: V2.6.30 (2026-11-28)
 - **Author**: YOKKY (囿一九_YOKKY)
 
 > Your images are processed only in your own browser and are never uploaded to any server. The page doesn't save images or settings either: refreshing or closing it clears everything, so export in time.
@@ -227,7 +227,10 @@ Since V1.5.5 the source code is no longer public. You can still help:
 
 This tool is free. If it helped you, you're welcome to support future development:
 
-- Afdian (sponsor): https://afdian.com/a/19creation
+- Scan to sponsor (Alipay / WeChat Pay). You can also find these under About › Support the author on the page:
+
+  <img src="docs/pay-alipay.png" width="160" alt="Alipay QR code"> <img src="docs/pay-wechat.png" width="160" alt="WeChat Pay QR code">
+
 - Taobao shop "囿酒屋YOSAKE": https://gw25h5o2a7u3apvftc6uzlpt17xwzsc.taobao.com/
 
 ## Contributors & sponsors
@@ -248,6 +251,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 <details>
 <summary>Recent versions</summary>
 
+- **V2.6.30**: Afdian is no longer used. The About button is now "Support the author" and opens Alipay / WeChat Pay QR codes, as does the "buy Yokky Bear a drink" link in the feedback popup.
 - **V2.6.29**: Fixed "It's my first time" sometimes not starting the tutorial. Browsers that had already seen some tips could get nothing; now it always plays the full tutorial from the start.
 - **V2.6.28**: Moved the voting box on the license screen to just below the "I have read and accept" checkbox, so it's easier to see.
 - **V2.6.27**: Added a voting box under the GitHub Star box on the license screen. Lots of new products and features are planned for December, and the most-voted products come first: [vote here](https://docs.qq.com/form/page/DSUdLVHZaTWx2Q1Z0).
@@ -258,7 +262,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 - **V2.6.22**: feedback now uses a Tencent Docs form: after exporting it pops up at most once a week (scan the QR code or use the button); [Send feedback] under "About" opens the form directly. The in-page questionnaire was removed.
 - **V2.6.21**: feedback submits more reliably: if the feedback server can't be reached it retries a backup address; if both fail, your answers are saved on this device and sent automatically next time you open the page (uploaded files need to be sent again).
 - **V2.6.20**: the feedback form has a new checkbox under Contact: "I'd like to join beta testing and try new features first" (a contact is required when ticked).
-- **V2.6.19**: "About" redesigned: buttons on top (Sponsor · Afdian, **Send feedback**, replay tips, video tutorials, manual, QQ group), contact info below; "License summary" renamed "Mockup license" with a full-license link at the end; name and version removed (the version is shown top-left). Setting groups start collapsed so these buttons are easy to reach. The feedback form now pops up automatically at most once a day; after closing it, a tip says you can reopen it anytime with [Send feedback] under "About".
+- **V2.6.19**: "About" redesigned: buttons on top (Support the author, **Send feedback**, replay tips, video tutorials, manual, QQ group), contact info below; "License summary" renamed "Mockup license" with a full-license link at the end; name and version removed (the version is shown top-left). Setting groups start collapsed so these buttons are easy to reach. The feedback form now pops up automatically at most once a day; after closing it, a tip says you can reopen it anytime with [Send feedback] under "About".
 - **V2.6.18**: small wording change in the line at the bottom of the feedback form ("thanks for your effort" → "thanks for using it").
 - **V2.6.17**: the "buy Yokky Bear a drink ❤️" line at the bottom of the feedback form is now always shown, without choosing question 5.
 - **V2.6.16**: after exporting an image, video or GIF, a short feedback form pops up (once per visit; close it with × in the top-right, filling it in is optional). You can rate your experience, leave suggestions and problems, and optionally a contact. Only what you fill in is sent; the finished mockup PNG and its settings are attached only if you tick that box — your original images are never uploaded. Question 5 lets you contribute copyright-free shimmer backgrounds, foil color charts, item dielines and reference photos for R03. A random beta invitation was also added (only shown when the author turns it on; agreeing takes you to the `beta/` version). (V2.6.15 was an internal test number and was never released.)
@@ -268,7 +272,7 @@ Foil colors reference the Zhencai Gold Foil / Jinsui / Xingyu swatch books, laid
 - **V2.6.11**: the QQ group number (1053188712) on the license screen and in About is now an underlined link that opens the join page; the number on the license screen uses the MiSans font.
 - **V2.6.10**: the license screen now shows the QQ group number (1053188712) under the author, with a "Copy" button.
 - **V2.6.9**: the QQ group in About is now "小熊猫研究所" (Yokky Bear Lab); the two old groups were removed from About.
-- **V2.6.8**: new "Support the author (Afdian)" button in About. The night theme (black / red / white) has new colors matching R07; the scene background defaults to dark gray at night, but a background you picked yourself is kept.
+- **V2.6.8**: new "Support the author" button in About. The night theme (black / red / white) has new colors matching R07; the scene background defaults to dark gray at night, but a background you picked yourself is kept.
 - **V2.6.7**: fix: after "Edit badge inside" in the badge box, if you switched to another badge (e.g. from a geometric badge to a custom-shape badge) and came back, the box kept the old badge. It now uses the badge you edited last.
 - **V2.6.6**: badge box: the die line colour rules are shown next to "Upload full die line", and a box built from a full die line explains how to change its orientation (switch to manual settings, then upload the window die line again). The "?" under "Size & die line" is easier to read: sections with red headings, bold labels and dividers; the general rules are a short list for every item.
 - **V2.6.5**: badge box: size presets now show the box size (W × H × depth, mm) and window shape, and "Badge inside" shows the default pairing (restored when you change size). With a preset size you can upload just a window die line; outline-only window drawings work now. Upload a full box die line to build the box, windows, lid and tuck flap from it, with the artwork fitted to each panel (enter the front width if the image has no DPI). Die line rules are in the "?" of "Size & die line".
